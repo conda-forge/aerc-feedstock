@@ -23,7 +23,7 @@ build:
 
 requirements:
   build:
-    - ${{ compiler("go-cgo") }} >=1.21
+    - ${{ compiler("go-cgo") }} >=1.23
     - ${{ compiler("c") }}
     - ${{ stdlib("c") }}
     - go-licenses
