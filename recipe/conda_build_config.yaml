@@ -1,2 +1,4 @@
-MACOSX_SDK_VERSION:  # [osx and x86_64]
-  - '10.15'  # [osx and x86_64]
+# golang 1.25 requires this:
+# See https://go-review.googlesource.com/c/go/+/654376
+MACOSX_SDK_VERSION:  # [osx]
+  - '12.3'  # [osx]
